@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+background-color: lightblue;
+}
+h1 {
+color: white;
+text-align: center;
+}
+
+p {
+   font-family: verdana;
+   font-size: 20px;
+}
+</style>
+</head>
+<body>
+<h1>Jack and Co.-Customer Service</h1>
+
+<p1>Provide requested input below.  </p>
+
+<form>
+<label for="fname">Enter first name: </label><br>
+<input type="text" id="fname" name="fname"><br>
+<label for="lname">Enter last name: </label><br>
+<input type="text" id="lname" name="lname"><br>
+<label for="email">Enter Email address: </label><br>
+<input type="text" id="email" email="email"><br>
+<input type="submit" value="Submit Data">
+</form>
+
+</body>
+</html>
